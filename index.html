@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculador de edad</h1>
+
+    <main class="container">
+        <div class="input">
+            <label for="birthdate">Ingresa tu edad</label>
+            <input type="date" id="birthdate">
+        </div>
+        <ul>
+
+            <li><span id="years"></span>Año</li>
+            <li><span id="months"></span>Mes</li>
+            <li><span id="days"></span>Dias</li>
+            <li><span id="hours"></span>Horas</li>
+            <li><span id="minutes"></span>Minutos</li>
+            <li><span id="seconds"></span>Segundos</li>
+        </ul>
+
+        <div class="btns">
+            <button id="Calculate" onclick="calculate()">Calcular</button>
+            <button id="reset" onclick="reset()">Reiniciar</button>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
